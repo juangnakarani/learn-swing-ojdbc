@@ -36,9 +36,9 @@ public class CustomerRepository {
 			//System.out.println("check query: " + ((OraclePreparedStatementWrapper) insertStatement).getOriginalSql());
 			insertStatement.executeQuery();
 			
-			System.out.println("lewat save exce");
+			System.out.println("customer executed");
 		}
-		System.out.println("lewat save customer");
+		System.out.println("customer saved");
 		return c;
 	}
 }
