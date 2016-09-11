@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 import oracle.jdbc.pool.OracleDataSource;
 
-public class DataSourceFactory {
+public class DataSourceManager {
 	private static final String DATABASE = "xe";
 	private static final String DRIVERTYPE = "thin";
 	private static final String SERVERNAME = "localhost";
