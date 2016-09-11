@@ -19,7 +19,7 @@ public class CustomerFrameTest {
 			customerService.setDataSource(dataSource);
 			
 			Customer c = new Customer();
-			c.setName("juang");
+			c.setName("oke");
 			c.setAddress("kediri");
 			System.out.println("hallo iki aku...");
 			customerService.save(c);
