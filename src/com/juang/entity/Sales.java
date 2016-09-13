@@ -7,16 +7,16 @@ import java.util.List;
 import org.joda.time.DateTime;
 
 public class Sales {
-	private int id;
+	private Integer id;
 	private DateTime transDate;
 	private List<Product> products = new ArrayList<>();
 	private BigDecimal price;
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
